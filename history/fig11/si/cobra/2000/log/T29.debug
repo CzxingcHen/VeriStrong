@@ -1,0 +1,250 @@
+[DEBUG] Txn[1000004f3] start
+[DEBUG] Txn[1000004f3] try to commit
+[DEBUG] Txn[1000004f3] successfully commit
+[DEBUG] Txn[10000050e] start
+[DEBUG] Txn[10000050e] try to commit
+[DEBUG] Txn[10000050e] successfully commit
+[DEBUG] Txn[100000525] start
+[DEBUG] Txn[100000525] try to commit
+[DEBUG] Txn[100000525] successfully commit
+[DEBUG] Txn[100000540] start
+[DEBUG] Txn[100000540] try to commit
+[DEBUG] Txn[100000540] successfully commit
+[DEBUG] Txn[10000055e] start
+[DEBUG] Txn[10000055e] try to commit
+[DEBUG] Txn[10000055e] successfully commit
+[DEBUG] Txn[10000057f] start
+[DEBUG] Txn[10000057f] try to commit
+[DEBUG] Txn[10000057f] successfully commit
+[DEBUG] Txn[10000058c] start
+[DEBUG] Txn[10000058c] try to commit
+[DEBUG] Txn[10000058c] successfully commit
+[DEBUG] Txn[1000005a9] start
+[DEBUG] Txn[1000005a9] try to commit
+[DEBUG] Txn[1000005a9] successfully commit
+[DEBUG] Txn[1000005c8] start
+[DEBUG] Txn[1000005c8] try to commit
+[DEBUG] Txn[1000005c8] successfully commit
+[DEBUG] Txn[1000005e6] start
+[DEBUG] Txn[1000005e6] try to commit
+[DEBUG] Txn[1000005e6] successfully commit
+[DEBUG] Txn[100000604] start
+[DEBUG] Txn[100000604] try to commit
+[DEBUG] [ERROR] [KvException|TxnException] Tid[29] msg[TxnException: Write conflict, txnStartTS=435925554892636164, conflictStartTS=435925554866683905, conflictCommitTS=435925554958172166, key={tableID=623, handle=3428} primary={tableID=623, handle=831} [try again later]]
+[DEBUG] TxnException: Write conflict, txnStartTS=435925554892636164, conflictStartTS=435925554866683905, conflictCommitTS=435925554958172166, key={tableID=623, handle=3428} primary={tableID=623, handle=831} [try again later]
+[DEBUG] Txn[100000604] abort
+[DEBUG] Txn[100000623] start
+[DEBUG] Txn[100000623] try to commit
+[DEBUG] Txn[100000623] successfully commit
+[DEBUG] Txn[100000644] start
+[DEBUG] Txn[100000644] try to commit
+[DEBUG] Txn[100000644] successfully commit
+[DEBUG] Txn[100000654] start
+[DEBUG] Txn[100000654] try to commit
+[DEBUG] Txn[100000654] successfully commit
+[DEBUG] Txn[100000675] start
+[DEBUG] Txn[100000675] try to commit
+[DEBUG] Txn[100000675] successfully commit
+[DEBUG] Txn[100000682] start
+[DEBUG] Txn[100000682] try to commit
+[DEBUG] Txn[100000682] successfully commit
+[DEBUG] Txn[1000006a4] start
+[DEBUG] Txn[1000006a4] try to commit
+[DEBUG] Txn[1000006a4] successfully commit
+[DEBUG] Txn[1000006c0] start
+[DEBUG] Txn[1000006c0] try to commit
+[DEBUG] Txn[1000006c0] successfully commit
+[DEBUG] Txn[1000006e2] start
+[DEBUG] Txn[1000006e2] try to commit
+[DEBUG] Txn[1000006e2] successfully commit
+[DEBUG] Txn[1000006ff] start
+[DEBUG] Txn[1000006ff] try to commit
+[DEBUG] Txn[1000006ff] successfully commit
+[DEBUG] Txn[10000070e] start
+[DEBUG] Txn[10000070e] try to commit
+[DEBUG] Txn[10000070e] successfully commit
+[DEBUG] Txn[100000720] start
+[DEBUG] Txn[100000720] try to commit
+[DEBUG] Txn[100000720] successfully commit
+[DEBUG] Txn[10000073f] start
+[DEBUG] Txn[10000073f] try to commit
+[DEBUG] Txn[10000073f] successfully commit
+[DEBUG] Txn[100000763] start
+[DEBUG] Txn[100000763] try to commit
+[DEBUG] Txn[100000763] successfully commit
+[DEBUG] Txn[100000772] start
+[DEBUG] Txn[100000772] try to commit
+[DEBUG] Txn[100000772] successfully commit
+[DEBUG] Txn[100000791] start
+[DEBUG] Txn[100000791] try to commit
+[DEBUG] Txn[100000791] successfully commit
+[DEBUG] Txn[1000007a3] start
+[DEBUG] Txn[1000007a3] try to commit
+[DEBUG] Txn[1000007a3] successfully commit
+[DEBUG] Txn[1000007b4] start
+[DEBUG] Txn[1000007b4] try to commit
+[DEBUG] Txn[1000007b4] successfully commit
+[DEBUG] Txn[1000007d1] start
+[DEBUG] Txn[1000007d1] try to commit
+[DEBUG] Txn[1000007d1] successfully commit
+[DEBUG] Txn[1000007f0] start
+[DEBUG] Txn[1000007f0] try to commit
+[DEBUG] Txn[1000007f0] successfully commit
+[DEBUG] Txn[100000810] start
+[DEBUG] Txn[100000810] try to commit
+[DEBUG] Txn[100000810] successfully commit
+[DEBUG] Txn[100000822] start
+[DEBUG] Txn[100000822] try to commit
+[DEBUG] Txn[100000822] successfully commit
+[DEBUG] Txn[100000842] start
+[DEBUG] Txn[100000842] try to commit
+[DEBUG] Txn[100000842] successfully commit
+[DEBUG] Txn[100000863] start
+[DEBUG] Txn[100000863] try to commit
+[DEBUG] Txn[100000863] successfully commit
+[DEBUG] Txn[100000881] start
+[DEBUG] Txn[100000881] try to commit
+[DEBUG] [ERROR] [KvException|TxnException] Tid[29] msg[TxnException: Write conflict, txnStartTS=435925557068431362, conflictStartTS=435925557042216966, conflictCommitTS=435925557133705221, key={tableID=623, handle=6387} primary={tableID=623, handle=7} [try again later]]
+[DEBUG] TxnException: Write conflict, txnStartTS=435925557068431362, conflictStartTS=435925557042216966, conflictCommitTS=435925557133705221, key={tableID=623, handle=6387} primary={tableID=623, handle=7} [try again later]
+[DEBUG] Txn[100000881] abort
+[DEBUG] Txn[1000008a9] start
+[DEBUG] Txn[1000008a9] try to commit
+[DEBUG] Txn[1000008a9] successfully commit
+[DEBUG] Txn[1000008bb] start
+[DEBUG] Txn[1000008bb] try to commit
+[DEBUG] Txn[1000008bb] successfully commit
+[DEBUG] Txn[1000008dc] start
+[DEBUG] Txn[1000008dc] try to commit
+[DEBUG] Txn[1000008dc] successfully commit
+[DEBUG] Txn[1000008e9] start
+[DEBUG] Txn[1000008e9] try to commit
+[DEBUG] Txn[1000008e9] successfully commit
+[DEBUG] Txn[1000008fa] start
+[DEBUG] Txn[1000008fa] try to commit
+[DEBUG] Txn[1000008fa] successfully commit
+[DEBUG] Txn[100000917] start
+[DEBUG] Txn[100000917] try to commit
+[DEBUG] Txn[100000917] successfully commit
+[DEBUG] Txn[100000939] start
+[DEBUG] Txn[100000939] try to commit
+[DEBUG] Txn[100000939] successfully commit
+[DEBUG] Txn[100000945] start
+[DEBUG] Txn[100000945] try to commit
+[DEBUG] Txn[100000945] successfully commit
+[DEBUG] Txn[10000095a] start
+[DEBUG] Txn[10000095a] try to commit
+[DEBUG] Txn[10000095a] successfully commit
+[DEBUG] Txn[10000096a] start
+[DEBUG] Txn[10000096a] try to commit
+[DEBUG] Txn[10000096a] successfully commit
+[DEBUG] Txn[100000978] start
+[DEBUG] Txn[100000978] try to commit
+[DEBUG] Txn[100000978] successfully commit
+[DEBUG] Txn[100000998] start
+[DEBUG] Txn[100000998] try to commit
+[DEBUG] Txn[100000998] successfully commit
+[DEBUG] Txn[1000009aa] start
+[DEBUG] Txn[1000009aa] try to commit
+[DEBUG] Txn[1000009aa] successfully commit
+[DEBUG] Txn[1000009c7] start
+[DEBUG] Txn[1000009c7] try to commit
+[DEBUG] Txn[1000009c7] successfully commit
+[DEBUG] Txn[1000009e4] start
+[DEBUG] Txn[1000009e4] try to commit
+[DEBUG] Txn[1000009e4] successfully commit
+[DEBUG] Txn[1000009f5] start
+[DEBUG] Txn[1000009f5] try to commit
+[DEBUG] Txn[1000009f5] successfully commit
+[DEBUG] Txn[100000a0a] start
+[DEBUG] Txn[100000a0a] try to commit
+[DEBUG] Txn[100000a0a] successfully commit
+[DEBUG] Txn[100000a16] start
+[DEBUG] Txn[100000a16] try to commit
+[DEBUG] Txn[100000a16] successfully commit
+[DEBUG] Txn[100000a2a] start
+[DEBUG] Txn[100000a2a] try to commit
+[DEBUG] Txn[100000a2a] successfully commit
+[DEBUG] Txn[100000a36] start
+[DEBUG] Txn[100000a36] try to commit
+[DEBUG] Txn[100000a36] successfully commit
+[DEBUG] Txn[100000a48] start
+[DEBUG] Txn[100000a48] try to commit
+[DEBUG] Txn[100000a48] successfully commit
+[DEBUG] Txn[100000a68] start
+[DEBUG] Txn[100000a68] try to commit
+[DEBUG] Txn[100000a68] successfully commit
+[DEBUG] Txn[100000a7c] start
+[DEBUG] Txn[100000a7c] try to commit
+[DEBUG] Txn[100000a7c] successfully commit
+[DEBUG] Txn[100000a9a] start
+[DEBUG] Txn[100000a9a] try to commit
+[DEBUG] Txn[100000a9a] successfully commit
+[DEBUG] Txn[100000ab8] start
+[DEBUG] Txn[100000ab8] try to commit
+[DEBUG] Txn[100000ab8] successfully commit
+[DEBUG] Txn[100000ac7] start
+[DEBUG] Txn[100000ac7] try to commit
+[DEBUG] Txn[100000ac7] successfully commit
+[DEBUG] Txn[100000ae7] start
+[DEBUG] Txn[100000ae7] try to commit
+[DEBUG] Txn[100000ae7] successfully commit
+[DEBUG] Txn[100000b05] start
+[DEBUG] Txn[100000b05] try to commit
+[DEBUG] Txn[100000b05] successfully commit
+[DEBUG] Txn[100000b17] start
+[DEBUG] Txn[100000b17] try to commit
+[DEBUG] Txn[100000b17] successfully commit
+[DEBUG] Txn[100000b28] start
+[DEBUG] Txn[100000b28] try to commit
+[DEBUG] Txn[100000b28] successfully commit
+[DEBUG] Txn[100000b38] start
+[DEBUG] Txn[100000b38] try to commit
+[DEBUG] Txn[100000b38] successfully commit
+[DEBUG] Txn[100000b4c] start
+[DEBUG] Txn[100000b4c] try to commit
+[DEBUG] Txn[100000b4c] successfully commit
+[DEBUG] Txn[100000b6d] start
+[DEBUG] Txn[100000b6d] try to commit
+[DEBUG] Txn[100000b6d] successfully commit
+[DEBUG] Txn[100000b8c] start
+[DEBUG] Txn[100000b8c] try to commit
+[DEBUG] Txn[100000b8c] successfully commit
+[DEBUG] Txn[100000b9a] start
+[DEBUG] Txn[100000b9a] try to commit
+[DEBUG] Txn[100000b9a] successfully commit
+[DEBUG] Txn[100000bac] start
+[DEBUG] Txn[100000bac] try to commit
+[DEBUG] Txn[100000bac] successfully commit
+[DEBUG] Txn[100000bbe] start
+[DEBUG] Txn[100000bbe] try to commit
+[DEBUG] Txn[100000bbe] successfully commit
+[DEBUG] Txn[100000bcf] start
+[DEBUG] Txn[100000bcf] try to commit
+[DEBUG] Txn[100000bcf] successfully commit
+[DEBUG] Txn[100000bdf] start
+[DEBUG] Txn[100000bdf] try to commit
+[DEBUG] Txn[100000bdf] successfully commit
+[DEBUG] Txn[100000bf9] start
+[DEBUG] Txn[100000bf9] try to commit
+[DEBUG] Txn[100000bf9] successfully commit
+[DEBUG] Txn[100000c0a] start
+[DEBUG] Txn[100000c0a] try to commit
+[DEBUG] Txn[100000c0a] successfully commit
+[DEBUG] Txn[100000c2b] start
+[DEBUG] Txn[100000c2b] try to commit
+[DEBUG] Txn[100000c2b] successfully commit
+[DEBUG] Txn[100000c4a] start
+[DEBUG] Txn[100000c4a] try to commit
+[DEBUG] Txn[100000c4a] successfully commit
+[DEBUG] Txn[100000c56] start
+[DEBUG] Txn[100000c56] try to commit
+[DEBUG] Txn[100000c56] successfully commit
+[DEBUG] Txn[100000c72] start
+[DEBUG] Txn[100000c72] try to commit
+[DEBUG] Txn[100000c72] successfully commit
+[DEBUG] Txn[100000c92] start
+[DEBUG] Txn[100000c92] try to commit
+[DEBUG] Txn[100000c92] successfully commit
+[DEBUG] Txn[100000cb1] start
+[DEBUG] Txn[100000cb1] try to commit
+[DEBUG] Txn[100000cb1] successfully commit
