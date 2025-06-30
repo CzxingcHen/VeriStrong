@@ -58,7 +58,8 @@ Optional arguments:
 ## Reproduce Experiments
 
 Since the variants of the backend of VeriStrong (built on top of Minisat) is controlled by macros, 
-we provide several pre-compiled versions to reproduce experiments.
+we provide several pre-compiled versions to reproduce experiments, 
+see `precompiled.zip`.
 
 ### fig 5
 
@@ -95,6 +96,26 @@ This experiment may take hours due to the inefficiency of baselines.
 ### fig 11
 
 TODO
+#### (a) SER
+
+- executable: 
+  - VeriStrong: `precompiled/builddir-release-veristrong`; 
+  - Cobra(w/o GPU): `tools/CobraVerifier`;
+  - dbcop: `tools/dbcop-verifier`;
+- history: `history/fig11`;
+- script: `reproduce/fig11-ser.py`;
+
+To reproduce Cobra (w/ V100 GPU), see [Cobra's repo](https://github.com/DBCobra/CobraHome);
+
+#### (b) SI
+
+- executable: 
+  - VeriStrong: `precompiled/builddir-release-veristrong`; 
+  - PolySI: `tools/PolySI`. Note that the source code of PolySI is modified;
+  - Viper: # TODO;
+  - dbcop: `tools/dbcop-verifier`;
+- history: `history/fig11`;
+- script: `reproduce/fig11-si.py`;
 
 ### fig 12 
 
