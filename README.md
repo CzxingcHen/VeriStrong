@@ -4,13 +4,16 @@
 
 ```plain
 /veristrong-artifact
-|-- History                 # histories and benchmarks used in our experiments
+|-- history                 # histories and benchmarks used in our experiments
 |-- veristrong              # our prototype of VeriStrong
 |-- README.md
-|-- Reproduce               # scripts of reproducing experiments
-`-- Tools       
-    ├── 
-    └── # TODO
+|-- reproduce               # scripts of reproducing experiments
+|-- precompiled             # precompiled instances of VeriStrong under Ubuntu 22.04, used for reproducing experiments
+`-- tools       
+    ├── CobraVerifier       # The Cobra Checker
+    ├── PolySI              # The PolySI Checker (modified)
+    ├── Viper               # The Viper Checker
+    └── dbcop-verifier      # The dbcop Checker
 ```
 
 ## Reuse VeriStrong
