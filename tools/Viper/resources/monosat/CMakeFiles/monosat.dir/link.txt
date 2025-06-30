@@ -1,0 +1,1 @@
+/usr/bin/c++   -DNO_GMP -std=c++11 -Werror=return-type -Wno-unused-variable -Wno-unused-but-set-variable   -Wno-sign-compare  -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -O3 -DNDEBUG -DNDEBUG -O3 -rdynamic CMakeFiles/monosat.dir/src/monosat/Main.cc.o -o monosat   -L/usr/local/lib  -Wl,-rpath,/usr/local/lib:/home/rikka/Viper/resources/monosat libmonosat.so -lz -lgmpxx -lgmp -lrt 
