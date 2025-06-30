@@ -112,7 +112,7 @@ To reproduce Cobra (w/ V100 GPU), see [Cobra's repo](https://github.com/DBCobra/
 - executable: 
   - VeriStrong: `precompiled/builddir-release-veristrong`; 
   - PolySI: `tools/PolySI`. Note that the source code of PolySI is modified;
-  - Viper: # TODO;
+  - Viper: `tools/Viper`;
   - dbcop: `tools/dbcop-verifier`;
 - history: `history/fig11`;
 - script: `reproduce/fig11-si.py`;
@@ -194,4 +194,9 @@ find_cycle_times: 50
 
 ### table 2
 
-TODO
+We shows the collected histories in `history/table2`, with SER violations are under `ser` and SI violations are under `si`.
+Note that histories under dbcop (for both SER and SI) include both valid and invalid executions, while those under cobra and polysi are confirmed violations only.
+
+The experiment of table 2 are conducted manually for histories under `cobra` and `polysi`.
+For `dbcop` histories, violations can be checked by modifying the script of fig 11 to run checkers.
+Users may write additional scripts to parse and interpret the checker outputs.
