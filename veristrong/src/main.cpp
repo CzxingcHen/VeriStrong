@@ -221,10 +221,10 @@ auto main(int argc, char **argv) -> int {
     auto pruning_method = args.get("--pruning");
     BOOST_LOG_TRIVIAL(debug) << "pruning method: " << pruning_method;
 
-    if (solver_type == "monosat-baseline") {
-      pruning_method = "none";
-      BOOST_LOG_TRIVIAL(debug) << "pruning is banned! due to solver = monosat-baseline";
-    }
+    // if (solver_type == "monosat-baseline") {
+    //   pruning_method = "none";
+    //   BOOST_LOG_TRIVIAL(debug) << "pruning is banned! due to solver = monosat-baseline";
+    // }
     
     auto pruned = true;
     if (pruning_method == "normal") {

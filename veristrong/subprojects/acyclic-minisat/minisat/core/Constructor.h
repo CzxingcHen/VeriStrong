@@ -202,7 +202,7 @@ Polygraph *construct(int n_vertices, const KnownGraph &known_graph, const Constr
 #endif
 
   polygraph->set_n_vars(var_count);
-  std::cerr << "#vars: " << var_count << std::endl;
+  // std::cerr << "#vars: " << var_count << std::endl;
 
   Logger::log("[Var to Theory Interpretion]");
   for (int v = 0; v < var_count; v++) {

@@ -36,7 +36,7 @@
 
 // #define ENCODE_MORE_CONFLICT 1
 
-#define CONFLICT_WIDTH 4
+#define CONFLICT_WIDTH 3
 
 #define MONITOR_ENABLED 1
 

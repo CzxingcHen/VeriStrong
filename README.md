@@ -5,10 +5,9 @@
 ```plain
 /veristrong-artifact
 |-- History                 # histories and benchmarks used in our experiments
-|-- Plume                   # our prototype of VeriStrong
+|-- veristrong              # our prototype of VeriStrong
 |-- README.md
-|-- Reproduce 
-|   |-- # TODO
+|-- Reproduce               # scripts of reproducing experiments
 `-- Tools       
     ├── 
     └── # TODO
@@ -136,6 +135,7 @@ see the output of VeriStrong (in `stdout`); for example,
 - history: `history/fig13-14-15-table1`;
 - script: `reproduce/fig14.py`;
 
+This experiment may take hours.
 
 ### fig 15
 
@@ -146,6 +146,8 @@ see the output of VeriStrong (in `stdout`); for example,
   - encode 4: `precompiled/builddir-release-no-H-enc-4`;
 - history: `history/fig13-14-15-table1`;
 - script: `reproduce/fig15.py`;
+
+This experiment may take hours.
 
 ### table 1
 

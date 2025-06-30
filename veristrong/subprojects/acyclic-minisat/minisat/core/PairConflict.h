@@ -105,7 +105,7 @@ bool init_pair_conflict(AcyclicSolver &solver) {
   }
   auto end_time = std::chrono::high_resolution_clock::now();
   auto encode_2_duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
-  std::cerr << "Encode 2-width cycles: " << encode_2_duration << std::endl;
+  // std::cerr << "Encode 2-width cycles: " << encode_2_duration << std::endl;
 
   #ifdef ENCODE_MORE_CONFLICT
     if (CONFLICT_WIDTH >= 3) {
@@ -139,7 +139,7 @@ bool init_pair_conflict(AcyclicSolver &solver) {
       }
       end_time = std::chrono::high_resolution_clock::now();
       auto encode_3_duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
-      std::cerr << "Encode 3-width cycles: " << encode_3_duration << std::endl;
+      // std::cerr << "Encode 3-width cycles: " << encode_3_duration << std::endl;
     }
 
     if (CONFLICT_WIDTH >= 4) {
@@ -188,7 +188,7 @@ bool init_pair_conflict(AcyclicSolver &solver) {
       }
       end_time = std::chrono::high_resolution_clock::now();
       auto encode_4_duration = std::chrono::duration_cast<std::chrono::milliseconds>(end_time - start_time);
-      std::cerr << "Encode 4-width cycles: " << encode_4_duration << std::endl;
+      // std::cerr << "Encode 4-width cycles: " << encode_4_duration << std::endl;
     }
   #endif
 
