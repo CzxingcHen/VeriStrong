@@ -98,7 +98,6 @@ This experiment may take hours due to the inefficiency of baselines.
 
 ### fig 11
 
-TODO
 #### (a) SER
 
 - executable: 

@@ -20,7 +20,7 @@
 
 // #define FIND_MINIMAL_CYCLE 1
 
-// #define HEURISTIC_TOPO_ORDER 1
+#define HEURISTIC_TOPO_ORDER 1
 
 // * note: INIT_BY_SESS would be overwritten by INIT_BY_RANDOM
 // #define HEURISTIC_TOPO_INIT_BY_SESS 1
@@ -38,7 +38,7 @@
 
 #define CONFLICT_WIDTH 3
 
-#define MONITOR_ENABLED 1
+// #define MONITOR_ENABLED 1
 
 // #define LOGGER_ENABLED 1
 
