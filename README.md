@@ -62,7 +62,7 @@ Optional arguments:
 
 Since the variants of the backend of VeriStrong (built on top of Minisat) is controlled by macros, 
 we provide several pre-compiled versions to reproduce experiments, 
-see `precompiled.zip`.
+see [`precompiled.zip`](https://github.com/CzxingcHen/VeriStrong/releases/download/precompiled/precompiled.zip).
 
 ### fig 5
 
