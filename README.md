@@ -4,6 +4,7 @@
 
 ```plain
 /veristrong-artifact
+|-- tech-rpt.pdf            # the accompanying technical report
 |-- history                 # histories and benchmarks used in our experiments
 |-- veristrong              # our prototype of VeriStrong
 |-- README.md
