@@ -1,4 +1,4 @@
-# Artifact for `Fast Verification of Strong Database Isolation`
+# Artifact and Technical Report for `Fast Verification of Strong Database Isolation`
 
 ## Directory Organization
 
