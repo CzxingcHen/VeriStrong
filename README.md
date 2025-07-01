@@ -5,7 +5,7 @@ see also in [IsoVista](https://github.com/hengxin/IsoVista).
 ## Directory Organization
 
 ```plain
-/veristrong-artifact
+/VeriStrong
 |-- tech-rpt.pdf            # the accompanying technical report
 |-- history                 # histories and benchmarks used in our experiments
 |-- veristrong              # our prototype of VeriStrong
