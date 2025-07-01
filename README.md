@@ -1,9 +1,11 @@
 # Artifact and Technical Report for `Fast Verification of Strong Database Isolation`
 
+see also in [IsoVista](https://github.com/hengxin/IsoVista).
+
 ## Directory Organization
 
 ```plain
-/veristrong-artifact
+/VeriStrong
 |-- history                 # histories and benchmarks used in our experiments
 |-- veristrong              # our prototype of VeriStrong
 |-- README.md
