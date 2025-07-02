@@ -1,6 +1,6 @@
 # Artifact and Technical Report for `Fast Verification of Strong Database Isolation`
 
-see also in [IsoVista](https://github.com/hengxin/IsoVista).
+<!-- see also in [IsoVista](https://github.com/hengxin/IsoVista). -->
 
 ## Directory Organization
 
@@ -205,3 +205,10 @@ Note that histories under dbcop (for both SER and SI) include both valid and inv
 The experiment of table 2 are conducted manually for histories under `cobra` and `polysi`.
 For `dbcop` histories, violations can be checked by modifying the script of fig 11 to run checkers.
 Users may write additional scripts to parse and interpret the checker outputs.
+
+## Supporting Weak Isolation Levels
+
+> While our dedicated SMT solving is highly efficient for verifying strong isolation levels, it may be less suitable for weaker ones such as READ COMMITTED, where SMT may be unnecessarily heavyweight.
+> In practice, users can combine VeriStrong with existing weak isolation verifiers to achieve broader coverage. This integration is straightforward in the black-box setting, as all tools share a unified input format.
+> We have realized such an integration with the weak isolation verifier [Plume](https://github.com/dracoooooo/Plume) in the [IsoVista](https://github.com/hengxin/IsoVista) system.
+
