@@ -2,6 +2,8 @@
 
 <!-- see also in [IsoVista](https://github.com/hengxin/IsoVista). -->
 
+Technical Report: `tech-rpt.pdf`.
+
 ## Directory Organization
 
 ```plain
@@ -110,7 +112,7 @@ This experiment may take hours due to the inefficiency of baselines.
 - history: `history/fig11`;
 - script: `reproduce/fig11-ser.py`;
 
-To reproduce Cobra (w/ V100 GPU), see [Cobra's repo](https://github.com/DBCobra/CobraHome);
+To reproduce Cobra (w/ V100 GPU) and Cobra (w/ H800 GPU), see [Cobra's repo](https://github.com/DBCobra/CobraHome);
 
 #### (b) SI
 
