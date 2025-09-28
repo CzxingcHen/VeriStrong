@@ -2,7 +2,7 @@
 
 <!-- see also in [IsoVista](https://github.com/hengxin/IsoVista). -->
 
-Technical Report: `tech-rpt.pdf`.
+Technical Report: [`tech-rpt.pdf`](https://github.com/CzxingcHen/VeriStrong/blob/main/tech-rpt.pdf).
 
 ## Directory Organization
 
